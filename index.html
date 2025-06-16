@@ -73,7 +73,7 @@
             <svg class="icon red" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M8 7V3m8 4V3M3 11h18M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
             <div>
               <h3>June 27, 2025</h3>
-              <p>11 am to 4:30 pm</p>
+              <p>9:30 am to 5:00 pm</p>
             </div>
           </div>
           <div class="info-card">
@@ -151,7 +151,7 @@
       <i data-lucide="calendar-days" class="icon purple"></i>
       <h4>Date & Time</h4>
       <p>June 27, 2025</p>
-      <span>11:00 AM – 4:30 PM</span>
+      <span>9:30 AM – 5:00 PM</span>
     </div>
 
     <div class="event-card">
@@ -175,9 +175,9 @@
   </div>
 
   <div class="event-stats">
-    <div><span class="blue-text">100+</span><p>Expected Attendees</p></div>
+    <div><span class="blue-text">Gen Z</span><p>Expected Attendees</p></div>
     <div><span class="red-text">4</span><p>Expert Speakers</p></div>
-    <div><span>4</span><p>Workshop Sessions</p></div>
+    <div><span>4</span><p>Workshop Sessions(1.5 hrs)</p></div>
     <div><span>By Invitation</span><p>Registration Cost</p></div>
   </div>
 </section>
@@ -274,12 +274,14 @@
   const scheduleData = {
     date: "June 27, 2025",
     sessions: [
-      { time: "11:00 AM", title: "Welcome & Opening Keynote on Money Management", desc: "Kick off the summit and network with fellow attendees" },
-      { time: "12:00 PM", title: "Session: Understanding the Indian Banking System", desc: "Explore how banks operate and support our economy" },
-      { time: "1:00 PM", title: "Session: Smart Financial Planning", desc: "Learn budgeting, saving, and smart spending strategies" },
-      { time: "2:00 PM", title: "Session: Smart Investments", desc: "Learn MFs, Fds, Equity market, Gold etc." },
-      { time: "3:00 PM", title: "Session: Loans and Credit", desc: "Understand compound interest and wealth building" },
-      { time: "4:00 PM", title: "Workshop: Smart Tax Planning", desc: "Understand the Tax system" }
+      [
+  { time: "9:30 AM to 11:30 AM", title: "Welcome Introduction & Opening Keynote on Money Management", desc: "Kick off the summit with an introduction and understanding Money Management." },
+  { time: "11:30 AM to 1:00 PM", title: "Session: Understanding the Indian Banking System", desc: "Gain insights into how Indian banks function and their role in the economy." },
+  { time: "1:00 PM to 2:00 PM", title: "LUNCH", desc: "Enjoy a networking lunch with fellow participants." },
+  { time: "2:00 PM to 3:30 PM", title: "Session: Smart Financial Planning and Understanding Loans", desc: "Learn about mutual funds, fixed deposits, equity markets, gold, and loan strategies." },
+  { time: "3:30 PM to 5:00 PM", title: "Session: Smart Investments and Tax Planning", desc: "Understand the power of compounding, smart investment strategies, and effective tax planning." }
+]
+
     ]
   };
 
