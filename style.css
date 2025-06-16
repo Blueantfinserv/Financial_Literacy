@@ -164,7 +164,7 @@ body {
 
 .hero-section {
   position: relative;
-  background: url('slider 1.jpg');
+  background-image:url('slider 1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
