@@ -791,7 +791,7 @@ body {
 
 
 .register-section {
-  background: url("/registerbg.jpg") no-repeat center/cover;
+  background-image:  url('registerbg.jpg');
   padding: 60px 20px;
   color: #000;
   text-align: center;
